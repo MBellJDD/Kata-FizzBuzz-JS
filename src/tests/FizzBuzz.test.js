@@ -1,4 +1,7 @@
 import FizzBuzz from "../scripts/FizzBuzz.js";
+import FizzBuzz from "../scripts/FizzBuzz.js";
+import FizzBuzz from "../scripts/FizzBuzz.js";
+import FizzBuzz from "../scripts/FizzBuzz.js";
 
 describe('FizzBuzz', () => 
 {
