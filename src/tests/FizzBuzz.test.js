@@ -1,6 +1,5 @@
 import FizzBuzz from "../scripts/FizzBuzz";
 
-
 describe('FizzBuzz', () => {
     test('should return 3', () => {
         const num1 = 3
@@ -13,7 +12,14 @@ describe('FizzBuzz', () => {
         const num1 = 5
         const FizzBuzz = new FizzBuzz;
         const result  = FizzBuzz.isDivisible (num1)
-        expect (result).toBe('Fizz')
-    });
+        expect (result).toBe('Buzz')
+    })
+    
+    test('should return 3', () => {
+        const num1 = 15
+        const FizzBuzz = new FizzBuzz;
+        const result  = FizzBuzz.isDivisible (num1)
+        expect (result).toBe('FizzBuzz')
+    });;
     
 });
